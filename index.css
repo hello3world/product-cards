@@ -49,7 +49,6 @@ body {
   flex-direction: column;
   max-width: 33%;
   min-width: 307px;
-  /* margin-right: 20px; */
   box-shadow: 0 0 23px rgba(0, 0, 0, 0.15);
   border-radius: 10px 10px 0 0;
   background: white;
@@ -158,9 +157,10 @@ body {
   cursor: none;
 }
 
-/*****Adaptive******/
+/*****ADAPTIVE******/
 @media (max-width: 1210px) {
 
+  /*****SECTION PRODUCTSOFWEEK*****/
   .productsOfWeek__list {
     justify-content: center;
     gap: 40px 20px;
@@ -174,12 +174,17 @@ body {
 }
 
 @media (max-width: 960px) {
-body {
-  font-size: 14px;
-}
+
+  /*****COMMON PROPERTIES*****/
+  body {
+    font-size: 14px;
+  }
+
+  /*****SECTION PRODUCTSOFWEEK*****/
   .productsOfWeek__title {
     margin-bottom: 30px;
   }
+
   .productsOfWeek__button {
     font-size: 16px;
   }
@@ -190,8 +195,10 @@ body {
 }
 
 @media (max-width: 500px) {
+
+  /*****SECTION PRODUCTSOFWEEK*****/
   .productsOfWeek__title {
     font-size: 42px;
     line-height: 1.2;
-}
   }
+}
